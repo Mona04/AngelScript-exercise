@@ -1,0 +1,18 @@
+void NewScript::Excute()
+
+Temps: 
+
+Variables: 
+ 000: NewScript this
+
+
+- 11,3 -
+    0   0 *    SUSPEND
+    1   0 *    PshVPtr  v0
+    2   1 *    ADDSi    v20, 134217742
+    4   1 *    RDSPtr
+    5   1 *    CALLSYS  68           (void AAA::Excute())
+- 12,3 -
+    7   0 *    SUSPEND
+            0:
+    8   0 *    RET      1

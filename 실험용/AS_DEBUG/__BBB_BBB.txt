@@ -1,0 +1,23 @@
+BBB::BBB(AAA@)
+
+Temps: 
+
+Variables: 
+ -001: AAA@ in_aaa
+ 000: BBB this
+
+
+- 6,3 -
+               VarDecl  0
+    0   0 *    SUSPEND
+    1   0 *    VAR      v-1
+    2   1 *    PshVPtr  v0
+    3   2 *    ADDSi    v20, 134217742
+    5   2 *    GETOBJREF 1
+    6   2 *    REFCPY   0xc54e30
+    8   1 *    PopPtr
+- 7,3 -
+    9   0 *    SUSPEND
+            0:
+   10   0 *    FREE     v-1, 12930608
+   12   0 *    RET      2

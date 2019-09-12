@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Data.dat" />
+    <None Include="EX.scene" />
+    <None Include="macro.props" />
+    <None Include="temp.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileStream.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ScriptEngine.cpp" />
+    <ClCompile Include="ScriptManager.cpp" />
+    <ClCompile Include="실험용.cpp" />
+    <ClCompile Include="AngelScript_2.33.0\scriptbuilder\scriptbuilder.cpp" />
+    <ClCompile Include="AngelScript_2.33.0\scriptstdstring\scriptstdstring.cpp" />
+    <ClCompile Include="AngelScript_2.33.0\scriptstdstring\scriptstdstring_utils.cpp" />
+    <ClCompile Include="AngelScript_2.33.0\scriptarray\scriptarray.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
+    <ClCompile Include="Script.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileStream.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ScriptEngine.h" />
+    <ClInclude Include="ScriptManager.h" />
+    <ClInclude Include="AngelScript_2.33.0\scriptbuilder\scriptbuilder.h" />
+    <ClInclude Include="AngelScript_2.33.0\scriptstdstring\scriptstdstring.h" />
+    <ClInclude Include="AngelScript_2.33.0\angelscript.h" />
+    <ClInclude Include="AngelScript_2.33.0\scriptarray\scriptarray.h" />
+    <ClInclude Include="FileSystem.h" />
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="AAA.h" />
+  </ItemGroup>
+</Project>

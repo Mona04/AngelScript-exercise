@@ -1,0 +1,228 @@
+
+Total count
+PopPtr     : 1
+PSF        : 1
+RET        : 3
+PshVPtr    : 3
+RDSPtr     : 1
+CALLSYS    : 1
+SUSPEND    : 4
+ALLOC      : 1
+FREE       : 1
+LOADOBJ    : 1
+REFCPY     : 1
+GETOBJREF  : 1
+ADDSi      : 2
+VAR        : 1
+
+Never executed
+PshGPtr   
+PshC4     
+PshV4     
+SwapPtr   
+NOT       
+PshG4     
+LdGRdR4   
+CALL      
+JMP       
+JZ        
+JNZ       
+JS        
+JNS       
+JP        
+JNP       
+TZ        
+TNZ       
+TS        
+TNS       
+TP        
+TNP       
+NEGi      
+NEGf      
+NEGd      
+INCi16    
+INCi8     
+DECi16    
+DECi8     
+INCi      
+DECi      
+INCf      
+DECf      
+INCd      
+DECd      
+IncVi     
+DecVi     
+BNOT      
+BAND      
+BOR       
+BXOR      
+BSLL      
+BSRL      
+BSRA      
+COPY      
+PshC8     
+CMPd      
+CMPu      
+CMPf      
+CMPi      
+CMPIi     
+CMPIf     
+CMPIu     
+JMPP      
+PopRPtr   
+PshRPtr   
+STR       
+CALLBND   
+STOREOBJ  
+GETOBJ    
+CHKREF    
+GETREF    
+PshNull   
+ClrVPtr   
+OBJTYPE   
+TYPEID    
+SetV4     
+SetV8     
+CpyVtoV4  
+CpyVtoV8  
+CpyVtoR4  
+CpyVtoR8  
+CpyVtoG4  
+CpyRtoV4  
+CpyRtoV8  
+CpyGtoV4  
+WRTV1     
+WRTV2     
+WRTV4     
+WRTV8     
+RDR1      
+RDR2      
+RDR4      
+RDR8      
+LDG       
+LDV       
+PGA       
+CmpPtr    
+iTOf      
+fTOi      
+uTOf      
+fTOu      
+sbTOi     
+swTOi     
+ubTOi     
+uwTOi     
+dTOi      
+dTOu      
+dTOf      
+iTOd      
+uTOd      
+fTOd      
+ADDi      
+SUBi      
+MULi      
+DIVi      
+MODi      
+ADDf      
+SUBf      
+MULf      
+DIVf      
+MODf      
+ADDd      
+SUBd      
+MULd      
+DIVd      
+MODd      
+ADDIi     
+SUBIi     
+MULIi     
+ADDIf     
+SUBIf     
+MULIf     
+SetG4     
+ChkRefS   
+ChkNullV  
+CALLINTF  
+iTOb      
+iTOw      
+SetV1     
+SetV2     
+Cast      
+i64TOi    
+uTOi64    
+iTOi64    
+fTOi64    
+dTOi64    
+fTOu64    
+dTOu64    
+i64TOf    
+u64TOf    
+i64TOd    
+u64TOd    
+NEGi64    
+INCi64    
+DECi64    
+BNOT64    
+ADDi64    
+SUBi64    
+MULi64    
+DIVi64    
+MODi64    
+BAND64    
+BOR64     
+BXOR64    
+BSLL64    
+BSRL64    
+BSRA64    
+CMPi64    
+CMPu64    
+ChkNullS  
+ClrHi     
+JitEntry  
+CallPtr   
+FuncPtr   
+LoadThisR 
+PshV8     
+DIVu      
+MODu      
+DIVu64    
+MODu64    
+LoadRObjR 
+LoadVObjR 
+RefCpyV   
+JLowZ     
+JLowNZ    
+AllocMem  
+SetListSiz
+PshListElm
+SetListTyp
+POWi      
+POWu      
+POWf      
+POWd      
+POWdi     
+POWi64    
+POWu64    
+Thiscall1 
+
+Sequences
+PopPtr    , SUSPEND    : 1
+PSF       , PshVPtr    : 1
+RET       , SUSPEND    : 1
+RET       , LOADOBJ    : 1
+PshVPtr   , ALLOC      : 1
+PshVPtr   , ADDSi      : 2
+RDSPtr    , CALLSYS    : 1
+CALLSYS   , SUSPEND    : 1
+SUSPEND   , RET        : 1
+SUSPEND   , PshVPtr    : 1
+SUSPEND   , FREE       : 1
+SUSPEND   , VAR        : 1
+ALLOC     , SUSPEND    : 1
+FREE      , RET        : 1
+LOADOBJ   , RET        : 1
+REFCPY    , PopPtr     : 1
+GETOBJREF , REFCPY     : 1
+ADDSi     , RDSPtr     : 1
+ADDSi     , GETOBJREF  : 1
+VAR       , PshVPtr    : 1
+LABEL     , PSF        : 1
